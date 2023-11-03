@@ -1,0 +1,22 @@
+body div#contenedor-principal h1{color: greenyellow;}
+
+p {background-color: rgb(0, 255, 13);}
+
+ol li{color: blue;}
+
+.parrafo1{
+    color: blueviolet;
+}
+
+#contenedor-principal{
+    background-color: blue;
+
+}
+
+div{
+    background-color: brown;
+}
+
+.border{
+    border: 5px solid black;
+}

@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+a{text-decoration: none;
+
+}
+header{
+    display: flex;
+    background-color: rgb(77, 71, 83);
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+}
+header a i{
+    color: rgb(216, 182, 56);
+    font-size: 2em;
+    padding: 0.5em;
+}
+ header nav ul{
+    display: flex;
+    gap: 1.1em;
+    padding: 0.7em;
+
+}
+header nav ul li a{ 
+    color: rgb(174, 160, 88);
+    
+
+}
+
+
+section.seccion-1{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 2em;
+}
+
+.seccion-2{
+    width: 100%;
+}
+.foto1{
+    width: 100%; height: 800px;
+}
+footer{
+    background-color:rgb(77, 71, 83);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+
+.Redes{
+    color: rgb(174, 160, 88);
+    display: flex;
+    gap: 0.1em;
+    padding: 0.7em;
+}
+
+
+footer a i.fa-solid.fa-ghost.fa-beat{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    color: rgb(235, 174, 7);
+    font-size: 2em;
+    padding: 0.5em;
+}
+.fa-solid{
+    font-weight: 900;
+}
+
+footer nav ul{
+   
+    gap: 1.1em;
+    padding: 0.7em;
+
+}
+
+footer nav ul li a{
+    color: rgb(255, 255, 254);
+}
+
+.seccion-3{
+    display: flex;
+    margin-top: 2em;
+    gap: 2em;
+    justify-content: center;
+}
+.seccion-3 div img{
+    width: 80%; height: 200px;
+    border-radius: 30px;
+}
+.parrafo{
+    width: 200px;
+}
+.trabajos{
+    color: rgb(207, 176, 19);
+    display: flex;
+    justify-content:flex-start;
+}
+
+.seccion-3 h3 {
+    color: rgb(207, 176, 19);
+    display: flex;
+    
+}
+.copyright{
+    color: rgb(207, 176, 19);
+}
+#check{
+    display: none;
+
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+@media (max-width: 768px){
+    
+    header{
+       background-color: rgba(22, 123, 177, 0.779);
+    }
+    .acerca-de{
+        text-align: center;
+    }
+    .acerca-imagen{
+        margin-bottom: 40px;
+    }
+    h2.fuente-acento{
+        text-align: center;
+    }
+    .checkbtn{
+        display: block;
+    }
+
+    
+
+#encabezado ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #103255;
+    text-align: center;
+
+    top: 80px;
+    left: 100%;
+    transition: all 0.5s;
+}
+
+#check:checked ~ ul{
+    left: 0%;
+    display: block;
+}
+#encabezado nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+   
+}
+
+#encabezado nav ul li a{
+    font-size: 20px;
+}
+
+#check:checked ~ .checkbtn{
+    color: #051322;
+
+}
+
+section.seccion-1{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    align-content: center;
+    padding: 2em;
+}
+section.seccion-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  .seccion-3 img {
+    width: 50%;
+    height: 200px;
+    border-radius: 30px;
+  }
+  .seccion-3 h3 {
+    margin-top: 20px; 
+    text-align: center; 
+    justify-content: center;
+}
+
+  .seccion-3 p {
+    margin-top: 20px; 
+    text-align:right; 
+  }
+footer{
+    background-color:rgba(22, 123, 177, 0.779);
+    
+}
+}
+
+
+
